@@ -1,4 +1,5 @@
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -14,25 +15,71 @@ public class Assignment2 {
         String password = "age126";
 
         Scanner reader = new Scanner(System.in);  // Reading from System.in
-        System.out.println("Enter a zipcode: ");
+        System.out.print("Enter a zip code to center on: ");
         int z = reader.nextInt(); // Scans the next token of the input as an int.
-        System.out.println("Enter a radius: ");
-        int r = reader.nextInt();
+        System.out.print("Enter the radius to search in miles: ");
+        double r = reader.nextDouble() * 1.60934;
         //once finished
         reader.close();
 
         try {
             conn = DriverManager.getConnection(host,user,password);
-            String query = String.format("select zipcode, city, state, lat, `long`, estimatedpopulation from zips2 WHERE (zipcode > %d)", z);
+            String originQuery = String.format("select zipcode, city, state, lat, `long`, estimatedpopulation from zips2 " +
+                    "WHERE (zipcode = %d) and locationType = \"PRIMARY\"", z);
             st = conn.createStatement();
-            rs = st.executeQuery(query);
+            rs = st.executeQuery(originQuery);
 
-            ResultSetMetaData rsMD = rs.getMetaData();
-            int colCount = rsMD.getColumnCount();
+            Place origin = null;
+            ArrayList<Place> places = new ArrayList<>();
+            while(rs.next()){
+                int zip = rs.getInt("zipcode");
+                String city = rs.getString("city");
+                String state = rs.getString("state");
+                double lat = rs.getDouble("lat");
+                double lon = rs.getDouble("long");
+                int pop = rs.getInt("estimatedpopulation");
+                origin = new Place(zip,city,state,lat,lon,pop, 0);
+                places.add(origin);
+                System.out.println(origin);
+            }
 
+            if(origin != null) {
+                String fullQuery = "SELECT zipcode, city, state, lat, `long`, estimatedpopulation from zips2 WHERE locationType = \"Primary\"";
+                rs = st.executeQuery(fullQuery);
+
+                while (rs.next()) {
+                    int zip = rs.getInt("zipcode");
+                    String city = rs.getString("city");
+                    String state = rs.getString("state");
+                    double lat = rs.getDouble("lat");
+                    double lon = rs.getDouble("long");
+                    int pop = rs.getInt("estimatedpopulation");
+                    double dist = haversine(origin.getLat(), origin.getLon(), lat, lon);
+                    if (dist < r && zip != origin.getZipcode()) {
+                        places.add(new Place(zip,city,state,lat,lon,pop,dist));
+                    }
+                }
+
+                for(Place p : places){
+                    System.out.println(p);
+                }
+            }
             conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public static double haversine(double lat1, double lon1, double lat2, double lon2) {
+        final double R = 6371;
+
+        double dLat = Math.toRadians(lat2 - lat1);
+        double dLon = Math.toRadians(lon2 - lon1);
+        lat1 = Math.toRadians(lat1);
+        lat2 = Math.toRadians(lat2);
+
+        double a = Math.pow(Math.sin(dLat / 2),2) + Math.pow(Math.sin(dLon / 2),2) * Math.cos(lat1) * Math.cos(lat2);
+        double c = 2 * Math.asin(Math.sqrt(a));
+        return R * c;
     }
 }

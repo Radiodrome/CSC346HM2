@@ -10,14 +10,14 @@ public class Place {
     int pop;
     double distFromCenter;
 
-    public Place(int zipcode, String city, String state, double lat, double lon, int pop) {
+    public Place(int zipcode, String city, String state, double lat, double lon, int pop, double distFromCenter) {
         this.zipcode = zipcode;
         this.city = city;
         this.state = state;
         this.lat = lat;
         this.lon = lon;
         this.pop = pop;
-        distFromCenter = -1.0;
+        this.distFromCenter = distFromCenter;
     }
 
     public int getZipcode() {
