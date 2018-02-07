@@ -5,9 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test/Assignment2Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CSC346HM2/Assignment2.class" afterPath="$PROJECT_DIR$/out/production/CSC346HM2/Assignment2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSC346HM2.iml" afterPath="$PROJECT_DIR$/CSC346HM2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Assignment2.java" afterPath="$PROJECT_DIR$/src/Assignment2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Place.java" afterPath="$PROJECT_DIR$/src/Place.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,14 +23,14 @@
       <file leaf-file-name="Assignment2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Assignment2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="99" column="29" lean-forward="false" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1517966468783" expanded="true" signature="1097:1168" ph="select * fro... zips" />
-                <marker date="1517966468783" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
-                <marker date="1517966468783" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
-                <marker date="1517966468783" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
+                <marker date="1518044583839" expanded="true" signature="1097:1168" ph="select * fro... zips" />
+                <marker date="1518044583839" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
+                <marker date="1518044583839" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
+                <marker date="1518044583839" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
               </folding>
             </state>
           </provider>
@@ -42,8 +39,8 @@
       <file leaf-file-name="Assignment2Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/Assignment2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="160">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,7 +51,7 @@
       <file leaf-file-name="Place.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Place.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
+            <state relative-caret-position="380">
               <caret line="90" column="86" lean-forward="false" selection-start-line="90" selection-start-column="86" selection-end-line="90" selection-end-column="86" />
               <folding />
             </state>
@@ -90,8 +87,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Place.java" />
-        <option value="$PROJECT_DIR$/src/Assignment2.java" />
         <option value="$PROJECT_DIR$/src/Assignment2Test.java" />
+        <option value="$PROJECT_DIR$/src/Assignment2.java" />
         <option value="$PROJECT_DIR$/Test/Assignment2Test.java" />
       </list>
     </option>
@@ -103,10 +100,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1932" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,7 +206,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment2">
+  <component name="RunManager" selected="JUnit.Assignment2Test.haversine">
     <configuration default="false" name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Assignment2" />
@@ -223,6 +220,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="CSC346HM2" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Assignment2Test.haversine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CSC346HM2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assignment2Test" />
+      <option name="METHOD_NAME" value="haversine" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -605,12 +623,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Assignment2" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Assignment2Test.haversine" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Assignment2" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.Assignment2Test.haversine" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Assignment2" />
       </list>
     </recent_temporary>
   </component>
@@ -625,7 +645,7 @@
       <option name="presentableId" value="Default" />
       <updated>1517764828199</updated>
       <workItem from="1517764833730" duration="11572000" />
-      <workItem from="1517963631226" duration="3179000" />
+      <workItem from="1517963631226" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="added user input and Places class">
       <created>1517878501058</created>
@@ -641,14 +661,53 @@
       <option name="project" value="LOCAL" />
       <updated>1517883030055</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Filtered duplicate entries out of the places arraylist, leaving a list of non-duplicate places within the specified distance">
+      <created>1517966901779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1517966901779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 16h 59m 54s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 01m 30s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 01m 45s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 01m 57s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 02m 07s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 02m 22s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 03m 16s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 03m 28s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 05m 46s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Assignment2Test_haversine - 2018.02.07 at 17h 05m 54s.xml">
+      <configuration name="Assignment2Test.haversine" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14751000" />
+    <option name="totallyTimeSpent" value="16674000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
+    <frame x="-7" y="2" width="1932" height="1085" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -665,14 +724,14 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32878152" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.337487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34138656" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25908118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -692,7 +751,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added user input and Places class" />
     <MESSAGE value="added haversine method for computing distance&#10;added functionality to create a list of places within the specified distance" />
-    <option name="LAST_COMMIT_MESSAGE" value="added haversine method for computing distance&#10;added functionality to create a list of places within the specified distance" />
+    <MESSAGE value="Filtered duplicate entries out of the places arraylist, leaving a list of non-duplicate places within the specified distance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filtered duplicate entries out of the places arraylist, leaving a list of non-duplicate places within the specified distance" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,10 +771,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517966468783" expanded="true" signature="1097:1168" ph="select * fro... zips" />
-            <marker date="1517966468783" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
-            <marker date="1517966468783" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
-            <marker date="1517966468783" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="1097:1168" ph="select * fro... zips" />
+            <marker date="1518044583839" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
           </folding>
         </state>
       </provider>
@@ -727,14 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Place.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="90" column="86" lean-forward="false" selection-start-line="90" selection-start-column="86" selection-end-line="90" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Assignment2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -743,24 +795,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Place.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="90" column="86" lean-forward="false" selection-start-line="90" selection-start-column="86" selection-end-line="90" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Assignment2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="99" column="29" lean-forward="false" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1517966468783" expanded="true" signature="1097:1168" ph="select * fro... zips" />
-            <marker date="1517966468783" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
-            <marker date="1517966468783" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
-            <marker date="1517966468783" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="1097:1168" ph="select * fro... zips" />
+            <marker date="1518044583839" expanded="true" signature="1097:1210" ph="select zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="1097:1212" ph="select zipco... zips2" />
+            <marker date="1518044583839" expanded="true" signature="2095:2200" ph="SELECT zipco... zips2" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Assignment2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="160">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
